@@ -1,0 +1,134 @@
+html {
+    /*color al fondo de la pagina html */    
+    background-color: #ffffbf; } 
+body {    
+    /*color de todas las letras */
+    color: rgb(7, 1, 1); 
+    /*color del fondo de la pantalla del centro*/  
+    background-color: #E8E846;
+    /*le da forma a todo el texto */
+    font-family: Verdana, Geneva, sans-serif;
+       
+}
+body {
+	/* tamaño automatico del margen*/
+    margin: 0 auto;
+    /*ancho de la pagina html */
+    width: 100%;
+    /*la anchura maxima de la pagina */
+    max-width: 1020px;
+    /*Anchura minima de la pagina */
+    min-width: 640px;
+}
+body > nav {
+	/*Anchura del menu*/
+    width: 24%;
+    /*Flota en la posicion indicada*/
+    float: left;
+}
+nav > ul{
+    /*Establece el marcador que muestra cada elemento*/
+    list-style-type: none;
+    /*es la longitud del borde izquierdo y el contenido */
+    padding-left: 5px;
+}
+nav > ul>li.menu{
+    /*Establece un margen superior al menu*/
+    margin-top: 20px;
+}
+body > article#noticia {
+    /*Anchura del articulo*/
+    width: 61%;
+    /*se coloca el articulo en la posicion indicada*/
+    float: left;
+    /*Establece el margen para los cuatro lados */
+    margin: 0 3% 0 5%;
+}
+.menu{   
+        /*Agrega una decoracion por defecto, se puede elegir una*/  
+    text-decoration: none;
+    /*Asigna el espacion entre el contenido del articulo y el borde*/
+    padding: 3px;
+    /*Es la longitud del borde izquierdo y el contenido */
+    padding-left: 10px;
+    /*Es la longitud del borde derecho y el contenido */
+    padding-right: 5px;
+    /*Agrega un tamaño de fondo al texto */
+    font-family: helvetica;
+    /*Agrega un grosor al texto*/
+    font-weight: 400;
+    /*Es el tamaño del texto*/
+    font-size: 20px;
+    /*Es el estilo del texto*/
+    font-style: italic;
+    /*Agrega el color al texto*/
+    color: #1b0065;
+    /*Color de fondo que rodea al texto*/
+    background-color: #7EFFF8;
+    /*Define que tan redondeadas seran las esquina */
+    border-radius: 15px;
+    /*Le da formas al borde*/
+    border: dotted;
+    /*Tamaño entre titulos del menu*/
+    line-height: 25px;
+    /*Margen que separa al menu del encabezado*/
+    margin-top: 5px;
+    }
+
+address{
+    /*Ubucacion del texto*/
+    clear: both;
+    /*Texto centrado*/
+    text-align: center;
+    /*Color de fondo*/
+    background-color: lawngreen;
+}
+h1{
+    /*Tamaño del fondo del texto*/
+    font-size: 20px;
+    /*El estilo del texto*/
+    font-style: italic;
+}
+mark{    
+    /*Color de fondo del texto*/
+    background-color: rgb(156, 172, 218);
+}
+h3 {
+    /*Color del texto*/
+    color: #3a2c16;
+    /*Tamaño del fondo del texto*/
+    font-size: 1em;
+    /*Color del fondo de titulo del menu*/
+    background-color: chartreuse;
+    /*Define que tan redondeadas seran las esquina */
+    border-radius: 5px;
+    /*Distancia del titulo del menu con los otros titulos*/
+    margin-bottom: 10px;
+    /*Diseño del borde*/
+    border: inset;
+}
+p{
+    /*Texto justificado*/
+    text-align: justify;
+    /*Tamaño del texto*/
+    font-size: small;
+}
+font{
+    /*Fondo del grosor del texto*/
+    font-style: italic;
+    /*Tamaño del texto*/
+    font-size: 15px;
+}
+img{
+    /*Genera un cuadro de bloque para la imagen*/
+    display:block;
+    /*Margen automatico que toma la imagen*/
+    margin:auto;
+
+}
+.derec{
+    /*Se coloca en la posicion izquierda*/
+    float: right;
+    /*Asigna el espacion entre el contenido del articulo y el borde*/
+    padding: 1%;
+}

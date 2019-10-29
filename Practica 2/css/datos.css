@@ -1,0 +1,130 @@
+body{
+    /*Agrega una imagen de fondo*/
+    background-image: url(../images/contacto.PNG);
+}
+body{    
+    /* tamaño automatico del margen*/
+    margin: 0 auto;
+    /*la anchura maxima de la pagina */
+    max-width: 1020px;
+    /*Anchura minima de la pagina */
+    min-width: 640px;
+}
+form{
+    /*Se coloca en la pisicion izquierda*/
+    float: left;
+    /*Ancho de la pagina html */
+    width: 60%;
+    /*Margen automatico que toma la imagen*/
+    margin: auto;
+    /*Define los valores las las propiedades*/
+    background: rgba(0,0,0,0.4);
+    /*Asigna el espacion entre el contenido y el borde*/
+    padding: 15px 15px;
+    /*Calcular el ancho y alto total de la caja de contactos*/
+    box-sizing: border-box;
+    /*Margen que separa la parte superior con la caja de contactos*/  
+    margin-top: 25px; 
+    /*Define que tan redondeadas seran las esquina */
+    border-radius: 7px;  
+    /*Establece el margen para los cuatro lados */
+    margin: 0 0 0 5%;
+}
+h2{
+    /*Color del texto*/
+    color: #ffffff;
+    /*Texto centralizado*/
+    text-align: center;
+    /*Margen que toma el texto dentro del la caja de contactos*/
+    margin: 0%;
+    /*Tamaño de fondo que toma el texto*/
+    font-size: 30px;
+    /*Distancia del titulo de la caja  de contactos*/
+	margin-bottom: 20px;
+}
+input, textarea{
+    /*Anchura de la caja de texto*/
+    width: 100%;
+    /*Distancia de la caja del texto */
+    margin-bottom: 20px;
+    /*Asigna el espacio entre el contenido y el borde*/
+    padding: 7px;
+    /*Calcular el ancho y alto total de la caja de contactos*/
+    box-sizing: border-box;
+    /*Modifica el tamaño de la fuente*/
+    font-size: 17px;
+    /*Establece un valor a propiedades individuales*/
+    border: none;
+}
+textarea{
+    /*Altura minima de la caja de texto*/
+    min-height: 100px;
+    /*Altura maxima de la caja de textp*/
+    max-height: 200px;
+    /*Limita la anchura maxima de los elemntos del bloque*/
+    max-width: 100%;
+}
+#boton{
+    /*Color de fondo del boton*/
+    background: cadetblue;
+    /*Color de la palabra*/
+    color: cyan;
+    /*Asigna el espacio entre el contenido y el borde*/
+    padding: 30px;
+}
+#boton:hover{
+    /*Mostrar el tipo de cursor cuando este sobre el elemento*/
+    cursor: pointer;
+}
+nav > ul{
+    /*Establece el marcador que muestra cada elemento*/
+    list-style-type: none;
+    /*es la longitud del borde izquierdo y el contenido */
+    padding-left: 5px;
+}
+.menu{
+     /*Agrega una decoracion por defecto, se puede elegir una*/  
+    text-decoration: none;
+    /*Se coloca en la pisicion izquierda*/
+    float: left; 
+    /*Agrega una decoracion por defecto, se puede elegir una*/  
+    text-decoration: none;
+    /*Asigna el espacion entre el contenido y el borde*/
+    padding: 3px;
+    /*Es la longitud del borde izquierdo y el contenido */
+    padding-left: 10px;
+    /*Es la longitud del borde derecho y el contenido */
+    padding-right: 5px;
+    /*Agrega un tamaño de fondo al texto */
+    font-family: helvetica;
+    /*Agrega un grosor al texto*/
+    font-weight: 400;
+    /*Es el tamaño el texto*/
+    font-size: 25px;
+    /*Es el estilo del texto*/
+    font-style: italic;
+    /*Agrega el color al texto*/
+    color: #1b0065;
+    /*Color de fondo que rodea al texto*/
+    background-color: #7EFFF8;
+    /*Define que tan redondeadas seran las esquina */
+    border-radius: 15px;
+    /*Tamaño entre titulos del menu*/
+    line-height: 25px;
+    /*Margen que separa al menu del encabezado*/
+    margin-top: 15px;    
+}
+
+h3 {
+    /*Color del texto*/
+    color: #3a2c16;
+    /*Tamaño del fondo del texto*/
+    font-size: 1em;
+    /*Color del fondo de titulo del menu*/
+    background-color: chartreuse;
+    /*Define que tan redondeadas seran las esquina */
+    border-radius: 5px;
+    /*Distancia del titulo del menu con los otros titulos*/
+	margin-bottom: 10px;
+}
+    

@@ -1,0 +1,119 @@
+
+#peli{  
+    /*Asigna el espacion entre el contenido del articulo y el borde*/  
+    padding: 15px;
+    /*Texto centrado*/
+    text-align: center;
+    /*Agrega un tamaño de fondo al texto */
+    font-family: helvetica;
+    /*Agrega un grosor al texto*/
+    font-weight: 8000px;
+    /*Es el tamaño del texto*/
+    font-size: 70px;
+    /*Es el estilo del texto*/
+    font-style: italic;
+    /*Agrega el color al texto*/
+    color: #ff0101;
+    /*Color de fondo que rodea al texto*/
+    background-color: #221b8b;
+    /*Define que tan redondeadas seran las esquina */
+    border-radius: 15px;
+    /*Tamaño entre titulos del menu*/
+    line-height: 27px;
+    /*Margen que separa al menu del encabezado*/
+    margin-top: 5px;
+}
+.contenedor{
+    /*Da el espacio para que ocupe el texto sin que este posicionado */
+    position: relative;
+    /*Genera un cuadro de bloque para la imagen*/
+    display: inline-block;
+    /*Texto centrado*/
+    text-align: center;
+    /*Tamaño que toman los 4 margenes*/
+    margin: 0 0 0 3.5%;
+} 
+.centrado{
+    /*La pisicion puede variar*/
+    position: absolute;
+    /*Color del texto*/
+    color: crimson;
+    /*Desplaza el texto la posicion origial con referencia al borde derecho*/
+    top: 50%;
+    /*Desplaza el texto la posicion origial con referencia al borde izquierdo*/
+    left: 50%;
+    /*Permite cambiar de forma o posicion*/
+    transform: translate(-50%, -50%);
+}
+body {  
+    /*Agrega la imgen de fondo*/ 
+    background-image: url(../images/logo.PNG);     
+}
+body {
+	/* tamaño automatico del margen*/
+    margin: 0 auto;
+    /*ancho de la pagina html */
+    width: 100%;
+    /*la anchura maxima de la pagina */
+    max-width: 1020px;
+    /*Anchura minima de la pagina */
+    min-width: 640px;
+}
+body > header {
+    /*Da un tamaño por defecto al margen*/
+    margin: 0;
+    /*Anchura del header*/
+    width: 100%;
+    /*Muestra el contenido excedente en un elemento*/
+    overflow: hidden;    
+}
+body > nav {
+    /*Anchura del menu*/
+    width: 37%;
+    /*Se coloca en la pisicion izquierda*/
+    float: left;
+    /*Establece el margen para los cuatro lados */
+    margin: 0 0 0 2%;
+    /*Tamaño y color del borde del articulo*/
+    border: 3px solid rgb(235, 14, 14);
+    /*Color de fondo del menu*/
+    background-color: #ecec7a;
+    /*Define que tan redondeadas seran las esquinas*/
+    border-radius: 15px;
+}
+body > article#noticia {
+    /*Anchura del arituclo*/
+    width: 43%;
+    /*Se coloca en la poscion derecha*/
+    float: right;
+    /*Establece el margen para los cuatro lados */
+    margin: 0 3% 0 3%;
+    /*Tamaño y color del borde del articulo*/
+    border: 5px solid rgb(83, 80, 80);
+    /*Color de fondo del articulo*/
+    background-color: #ecec7a;
+    /*Define que tan redondeadas seran las esquina */
+    border-radius: 15px;
+     /*Tamaño de espacio entre el articulo y footer*/
+    line-height: 20px;
+    /*Asigna el espacion entre el contenido del articulo y el borde*/
+    padding: 12px 10px;
+    /*Margen que separa del encabezado*/
+    margin-top: 100px;
+    
+} 
+footer{
+    /*Anchura del footer*/
+    width: 50%;
+    /*Se posicionara a la derecha*/
+    float: right;
+    /*Texto centrado*/    
+    text-align: center;
+    /*Margen que tomara a los 4 lados*/
+    margin: 0px 0 5px 5px; 
+    /*Establece un margen superior*/   
+    margin-top: 20px;
+    /*color al fondo de la pagina html */
+    background-color: lawngreen;
+}
+
